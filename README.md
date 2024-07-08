@@ -1,43 +1,70 @@
-# react-blog
-Customizing the project
+# Getting Started with Create React App
 
-So far, you’ve learned about React components, but now you will focus on learning how to customize the project. You will learn about the software development approach, detailing the creation of separate associated files, the requirements gathering and the subsequent folder structure to be created.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Building a Layout
-Imagine that you've been given the task of building a somewhat more complex website layout using React.
+## Available Scripts
 
-At this point, you still don't know too much about how React works, but even with your limited knowledge, you can still build some relatively interesting designs.
+In the project directory, you can run:
 
-Currently, you need to build a simple typography-focused layout for a coding blog.
+### `npm start`
 
-This means that you will not have to use images, which simplifies your task significantly.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The layout you're supposed to build will consist of the following sections:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Main navigation 
+### `npm test`
 
-Promo (main advertisement)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-A list of newest posts' previews (intros)
+### `npm run build`
 
-The footer 
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Organizing Your Code
-Keeping in mind the above structure, how would you organize your code?
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-This is where React docs can help. They suggest two approaches:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Grouping by features 
+### `npm run eject`
 
-Grouping by file type 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-They also advise not to nest folders too deep, and to keep things simple and not overthink it.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-They even say that if you're just starting out, you shouldn't spend more than five minutes setting up a project.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Taking this advice into account, you might say that for a small project like this, you could keep it as simple as just adding a components folder and moving all your components into it. This is exactly what you’ll do next.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Building The App
-Since this is app's focus is on customization, let’s name the app customizing-example. 
+## Learn More
 
-What follows is the command to run in a suitable folder on your own computer. By "a suitable folder", I mean: "a folder where you feel comfortable installing a boilerplate React application". This also includes that the folder you chose will need to be accessible for your user on your OS (Operating System).
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
